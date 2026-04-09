@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.headerh1, .headerp {
+    text-shadow: 0 0 10px black;
+}
+
+
+html, body {
+    scroll-padding-top: 64px;
+}
+
+a {
+    letter-spacing: 4px;
+    cursor: pointer;
+
+}
+
+nav > a:active {
+    transform: scale(0.90);
+}   
+
+#services > div , #about > div
+ {
+display: flex;
+flex-direction: column;
+text-align: center;
+border: 2px solid white;
+}
+
+ul li:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    width: 33.33%;
+
+}
+
+.projectsdiv > img:hover, .aboutimg:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 20px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.yazi {
+    transform: scale(0);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.yazianimasyonu {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+
+.card {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.95);
+}
+
+.cardanimasyonu {
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}

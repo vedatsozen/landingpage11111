@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SİTE 29</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="max-w-screen overflow-x-hidden">
+
+    <nav class="z-50 pl-8 pr-8 fixed top-0 left-0 w-screen h-16 bg-transparent 
+    flex flex-row justify-between items-center gap-2 text-normal text-white">
+        
+        <h1 class="text-3xl font-bold tracking-wider text-white">VS <span style="color: red;">FURNITURE</span></h1>
+  
+        <div class="flex flex-row justify-center items-center gap-4">
+        <a href="#">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+
+        </div>
+   
+        
+    </nav>
+
+    <header class="text-white gap-4 text-center h-screen w-screen flex items-center justify-center flex flex-col justify-center items-center">
+      <h1 class="yazi headerh1 text-7xl text-center w-8/12">Yaşam Alanlarınıza Şıklık Katın</h1> 
+      <p class="yazi headerp text-normal">VS Furniture ile modern tasarım, konfor ve kaliteyi bir araya getirerek hayalinizdeki yaşam alanlarını gerçeğe dönüştürün.</p>
+    </header>
+
+    <section id="aboutus" class="flex flex-col justify-center items-center p-4">
+
+        <h1 class="border-black border-b-2 text-black text-2xl font-bold tracking-wider m-auto mt-8">ABOUT US</h1>
+
+        <div class="projectsdiv mx-auto grid grid-cols-2 max-w-5xl mt-8 gap-4">
+                <div class="h-[500px]">
+                    <img src="imgs/projects/proje1.jpg" class="aboutimg h-full object-cover">
+                </div>
+
+                <div class="h-[500px] yazi">
+                    <p>VS Furniture olarak, yaşam alanlarını sadece döşemekle kalmayıp onlara karakter kazandırmayı hedefliyoruz. Modern tasarım anlayışını, kaliteli malzeme ve ustalıkla bir araya getirerek estetik, konfor ve dayanıklılığı aynı çatı altında sunuyoruz.</p> 
+                    <p>Kurulduğumuz günden bu yana müşteri memnuniyetini önceliğimiz olarak benimsedik. Her zevke ve ihtiyaca hitap eden geniş ürün yelpazemizle; ev, ofis ve yaşam alanlarına özel çözümler üretiyoruz.</p> <p>Tasarım sürecinden üretime kadar her aşamada detaylara verdiğimiz önem, ürünlerimizin kalitesine doğrudan yansımaktadır. Yenilikçi bakış açımız ve sektördeki gelişmeleri yakından takip eden dinamik ekibimiz sayesinde fark yaratan tasarımlar ortaya koyuyoruz.</p> 
+                    <p>VS Furniture olarak amacımız, sadece mobilya üretmek değil; insanların kendilerini iyi hissedecekleri, ilham veren alanlar yaratmaktır. Kalite, güven ve estetiği bir araya getirerek yaşam alanlarınıza değer katmaya devam ediyoruz.</p>
+                </div>
+
+              
+
+        </div>
+
+    </section>
+
+    <section id="products" class="flex flex-col justify-center items-center p-4">
+
+        <h1 class="border-black border-b-2 text-black text-2xl font-bold tracking-wider m-auto mt-8">PRODUCTS</h1>
+
+        <div class="projectsdiv mx-auto grid grid-cols-3 max-w-5xl mt-8 gap-4">
+        <img src="imgs/projects/proje1.jpg" class="h-60 m-auto card">
+        <img src="imgs/projects/proje2.jpg" class="h-60 m-auto card">
+        <img src="imgs/projects/proje3.jpg" class="h-60 m-auto card">
+        <img src="imgs/projects/proje4.jpg" class="h-60 m-auto card">
+        <img src="imgs/projects/proje5.jpg" class="h-60 m-auto card">
+        <img src="imgs/projects/proje6.jpg" class="h-60 m-auto card">
+        </div>
+
+    </section>
+
+    <section id="contact" class="bg-slate-100 flex flex-col justify-center items-center p-4">
+
+        <h1 class="border-black border-b-2 text-black text-2xl font-bold tracking-wider m-auto mt-8">CONTACT</h1>
+
+         <div class="projectsdiv mx-auto grid grid-cols-3 max-w-5xl mt-8 gap-4">
+                  <div class="h-[300px]">
+                  <p>VS Furniture olarak, yaşam alanlarını sadece döşemekle kalmayıp onlara karakter kazandırmayı hedefliyoruz. Modern tasarım anlayışını, kaliteli malzeme ve ustalıkla bir araya getirerek estetik, konfor ve dayanıklılığı aynı çatı altında sunuyoruz.</p>
+                    
+                </div>
+
+                <div class="h-[300px] flex flex-col justify-start items-center gap-4">
+                            <a href="#">Home</a>
+                            <a href="#aboutus">About Us</a>
+                            <a href="#products">Products</a>
+                            <a href="#contact">Contact</a>
+
+                </div>
+   
+            
+
+                   <div class="text-normal h-[300px] flex flex-col justify-start items-center gap-4">
+                
+                    <a href="#"><i class="bi bi-twitter"></i> Twitter</a>
+                    <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
+                    <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                </div>
+
+
+             
+
+        </div>
+
+    </section>
+
+    <div id="popupdiv" class="hidden z-50 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-4/6 w-10/12">
+    <img id="popupimg" src="" class="h-full w-full absolute top-0 left-0 z-10" style="height: 100%; width: 100%; object-fit: cover;">
+    <i class="bi bi-x-lg text-3xl absolute top-4 right-4 z-20 cursor-pointer" id="kapat"></i>
+    </div>   
+
+<script>
+
+
+    let nav = document.querySelector("nav");
+
+    window.addEventListener("scroll", () => { 
+        
+        let windowY = window.scrollY;
+
+        if (window.scrollY > 0) {
+            nav.classList.add("bg-black/80");
+        } else {
+            nav.classList.remove("bg-black/80");
+        }
+    });
+
+    let projectImg = document.querySelectorAll(".projectsdiv img");
+
+    projectImg.forEach(img => {
+        img.addEventListener("click", () => {
+            let popupdiv = document.getElementById("popupdiv");
+            let popupimg = document.getElementById("popupimg");
+            popupimg.src = img.src;
+            popupdiv.classList.remove("hidden");
+        });
+    });
+
+    let kapat = document.getElementById("kapat");
+
+    kapat.addEventListener("click", () => {
+        let popupdiv = document.getElementById("popupdiv");
+        popupdiv.classList.add("hidden");
+    });
+
+    const yazilar = document.querySelectorAll('.yazi');
+    const cards = document.querySelectorAll('.card');
+
+    const observer = new IntersectionObserver((entries) => {
+        
+        entries.forEach(entry => {
+            if (entry.target.classList.contains('yazi')) {
+                entry.target.classList.toggle('yazianimasyonu', entry.isIntersecting);
+            }
+
+              else  if (entry.target.classList.contains('card')) {
+                    entry.target.classList.toggle('cardanimasyonu', entry.isIntersecting);
+                }
+          
+        });
+    }, {
+        root: null,
+        rootMargin: '0px 0px -100px 0px',
+        threshold: 0.1
+    });
+
+    yazilar.forEach(headerh1 => observer.observe(headerh1));
+    cards.forEach(card => observer.observe(card));
+
+
+
+
+</script>
+</body>
+</html>
